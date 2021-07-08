@@ -1,0 +1,18 @@
+{
+    "name": "yireo/shopware6-store-api-route-example",
+    "version": "1.0.0",
+    "description": "",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yireo\\StoreApiRouteExample\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Yireo\\StoreApiRouteExample\\YireoStoreApiRouteExample",
+        "label": {
+            "en-GB": "YireoStoreApiRouteExample"
+        }
+    }
+}
